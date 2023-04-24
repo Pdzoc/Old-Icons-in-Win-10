@@ -1,0 +1,60 @@
+body {
+    background-color: #008080;
+    font-size: large;
+}
+
+img {
+    margin: 10px
+}
+
+header {margin: auto; text-align: center; color: #ddd; margin-bottom: 10px;}
+header a {
+    background: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(9, auto);
+    gap: 15px;
+}
+
+#links {
+    max-width: 500px;
+    background-color: white;
+    padding: 3px 5px;
+    display: block;
+}
+
+main > a {display: block;}
+
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+section {
+    max-width: 500px;
+    margin: 10px auto;
+    color: black;
+    color: #ddd;
+}
+
+@media screen and (max-width:400px) {
+    main {
+        grid-template-columns: repeat(5, auto);
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    main {
+        grid-template-columns: repeat(6, auto);
+    }
+}
