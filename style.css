@@ -10,6 +10,7 @@ img {
 
 img:hover {
     transform: scale(4);
+    background: #008080;
 }
 
 header {margin: auto; text-align: center; color: #ddd; margin-bottom: 10px;}
